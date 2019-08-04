@@ -18,7 +18,7 @@ const Container = styled.div`
 export const SocialMedia = () => (
   <Container>
     <SocialLink type='github' url='https://github.com/avainc' />
-    <SocialLink type='linkedin' url='https://linkedin.com/in/avaassociates' />
+    <SocialLink type='linkedin' url='https://linkedin.com/company/avaassociates' />
     {/* <SocialLink type='codepen' url='https://codepen.io/alex-cory/' /> */}
     <SocialLink type='twitter' url='https://twitter.com/avaassociates' />
     <SocialLink type='facebook' url='https://fb.com/avaassociates' />
