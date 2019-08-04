@@ -21,6 +21,7 @@ const Logo = styled.img.attrs({
   src: `${window.location.origin}/ava-logo-green.png`
 })`
   width: 262px;
+  font-family: 'PT Sans';
 `
 
 export default App;
