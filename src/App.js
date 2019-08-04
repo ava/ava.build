@@ -20,7 +20,7 @@ const App = () => {
 const Logo = styled.img.attrs({
   src: `${window.location.origin}/ava-logo-green.png`
 })`
-  width: 262px;
+  width: 180px;
   font-family: 'PT Sans';
 `
 
