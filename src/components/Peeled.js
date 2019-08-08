@@ -9,6 +9,9 @@ const PeelyContainer = styled.p`
   color: rgb(65, 124, 59);
   font-family: 'Montserrat', sans-serif;
   font-size: 64px;
+  ${media.phone`
+    font-size: 66px;
+  `}
   position: absolute;
   bottom: -15px;
   right: -5px;
@@ -28,9 +31,6 @@ const beforeAfter = css`
 `
 
 const Letter = styled.span`
-  ${media.phone`
-    font-size: 40px;
-  `}
   display: inline-block;
   position: relative;
   transform-style: preserve-3d;
