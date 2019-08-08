@@ -5,4 +5,5 @@ export const Quote = styled.h3`
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   margin: 10px 0 0 0;
+  font-size: 20px;
 `

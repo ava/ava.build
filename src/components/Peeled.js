@@ -8,7 +8,10 @@ import { media } from '../utils'
 const PeelyContainer = styled.p`
   color: rgb(65, 124, 59);
   font-family: 'Montserrat', sans-serif;
-  font-size: 39px;
+  font-size: 64px;
+  position: absolute;
+  bottom: -15px;
+  right: -5px;
   margin: 0px;
   & > span:first-child {
     margin-left: 0;
