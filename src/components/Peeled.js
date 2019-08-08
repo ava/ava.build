@@ -6,12 +6,9 @@ import { media } from '../utils'
  * Peely Letters
  */
 const PeelyContainer = styled.p`
-  /* color: #fff; */
   color: rgb(65, 124, 59);
-  font-family: Arial, Helvetica, sans-serif;
-  /* font-family: Avenir Next, Helvetica Neue, Helvetica, Tahoma, sans-serif; */
-  font-size: 1em;
-  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 39px;
   margin: 0px;
   & > span:first-child {
     margin-left: 0;
@@ -28,7 +25,6 @@ const beforeAfter = css`
 `
 
 const Letter = styled.span`
-  font-size: 40px;
   ${media.phone`
     font-size: 40px;
   `}
