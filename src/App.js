@@ -1,21 +1,24 @@
 import React from "react";
 import styled from "styled-components";
 import { Snowflakes, Center, Peeled, Quote, SocialMedia } from "./components";
+import { MouseContainer } from './components'
 
 const App = () => {
   return (
-    <Snowflakes>
-      <SocialMedia />
-      <Center>
-        <Col>
-          <Row>
-            <Logo />
-            <Peeled phrase="Ava" color="rgb(137, 183, 44)" />
-          </Row>
-          <Quote>Rapid Application Development</Quote>
-        </Col>
-      </Center>
-    </Snowflakes>
+    <MouseContainer>
+      <Snowflakes>
+        <SocialMedia />
+        <Center>
+          <Col>
+            <Row>
+              <Logo />
+              <Peeled phrase="Ava" color="rgb(137, 183, 44)" />
+            </Row>
+            <Quote>Rapid Application Development</Quote>
+          </Col>
+        </Center>
+      </Snowflakes>
+    </MouseContainer>
   );
 };
 
