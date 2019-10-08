@@ -10,3 +10,25 @@ Todos
 - [ ] make ring around mouse circle stuff (for instance the logo on main screen) examples:
   - https://codepen.io/DanGasson/pen/BXQeaw
   - like [mouse here](https://www.finnovasrl.it) when you hover over "Menu" (awwwards)
+
+
+Potential Page Layout
+```
+=============================================== Cover Page / Home
+Social
+Icons
+                [Logo] Ava              Home
+                  Slogan                Clients
+                                        Contact
+
+============================================== Clients
+
+   Best Buy    Discord    Clipboard Health
+
+============================================== Contact
+
+                 Contact Form
+
+Address
+==============================================
+```

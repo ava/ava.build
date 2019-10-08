@@ -13,7 +13,7 @@ const PeelyContainer = styled.p`
     font-size: 66px;
   `}
   position: absolute;
-  bottom: -15px;
+  bottom: -9px;
   right: -5px;
   margin: 0px;
   & > span:first-child {

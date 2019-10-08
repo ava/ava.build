@@ -1,24 +1,24 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+import { media } from '../../utils'
 
 export const Follower = styled.div`
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 3px;
+  height: 3px;
   border-radius: 50%;
   opacity: 0.6;
   pointer-events: none;
   box-sizing: border-box;
   z-index: 3;
-  &:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    border: 4px solid rgb(65,124,59); /* hsl(220, 58%, 85%); */
-    box-sizing: border-box;
-  }
+  /* mix-blend-mode: difference; */
+  /* transition: all 300ms linear;  */
+  border: 4px solid rgb(65, 124, 59);/* rgb(137,183,44); */
+  ${props => props.active && css`
+	  background: rgba(255,255,255,1);
+    /* transform:scale(2) translateX(-25%) translateY(-25%); */
+  `}
+  ${media.phone`
+    display: none;
+  `}
 `
   

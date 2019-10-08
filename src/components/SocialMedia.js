@@ -15,8 +15,8 @@ const Container = styled.div`
   text-align: center;
 `
 
-export const SocialMedia = () => (
-  <Container>
+export const SocialMedia = props => (
+  <Container {...props}>
     <SocialLink type='github' url='https://github.com/avainc' />
     <SocialLink type='linkedin' url='https://linkedin.com/company/avaassociates' />
     {/* <SocialLink type='codepen' url='https://codepen.io/alex-cory/' /> */}

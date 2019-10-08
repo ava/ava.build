@@ -42,9 +42,9 @@ var snowflakes = (h, w, animationTime, shadow) => styled.div`
     box-shadow: ${multipleBoxShadow(shadow)};
   }
 `
-const SmallSnowflakes = snowflakes(1, 1, 50, 700)
+const SmallSnowflakes = snowflakes(1, 1, 150, 700)
 const MediumSnowflakes = snowflakes(2, 2, 100, 200)
-const BigSnowflakes = snowflakes(3, 3, 150, 100)
+const BigSnowflakes = snowflakes(3, 3, 50, 100)
 
 export const Snowflakes = ({ children, ...props }) => (
   <Container {...props}>
