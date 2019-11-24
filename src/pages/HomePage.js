@@ -124,14 +124,12 @@ const GoogleLogo = styled.img.attrs(() => ({
 const BestBuyLogo = styled.img.attrs(() => ({
   src: '/best-buy.svg'
 }))`
-  width: ${height}px;
-  height: ${height}px;
+  width: 40px;
   margin-left: 12px;
 `
 const DiscordLogo = styled.img.attrs(() => ({
   src: '/discord.png'
 }))`
-  /* width: 40px; */
   height: ${height}px;
   margin-left: 12px;
 `
