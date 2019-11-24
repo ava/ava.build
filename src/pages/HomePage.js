@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Snowflakes, Center, Peeled, Quote, SocialMedia, Page } from "components";
 import { useCursor } from 'components'
+import { media } from 'utils'
 
 
 export const HomePage = () => {
@@ -66,10 +67,81 @@ export const HomePage = () => {
             <Quote>Rapid Application Development</Quote>
           </Col>
         </Center>
+        <Clients>
+          <Title>Previous Clients</Title>
+          <TheRow>
+            <FacebookLogo />
+            <DiscordLogo />
+            <BestBuyLogo />
+            <GoogleLogo />
+          </TheRow>
+        </Clients>
       </Snowflakes>
     </Page>
   );
 }
+
+const Clients = styled.div`
+  display: flex;
+  align-items: center;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  ${media.phone`
+    right: 0px;
+    width: 100%;
+    flex-direction: column;
+  `}
+`
+
+const TheRow = styled.div`
+  display: flex;
+  ${media.phone`
+    & > img:first-child {
+      margin-left: 0px;
+    }
+  `}
+`
+
+const Title = styled.div`
+  font-size: 17px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  ${media.phone`
+    margin-bottom: 12px;
+  `}
+`
+
+const height = 30
+const GoogleLogo = styled.img.attrs(() => ({
+  src: '/google.png'
+}))`
+  width: ${height}px;
+  height: ${height}px;
+  margin-left: 12px;
+`
+const BestBuyLogo = styled.img.attrs(() => ({
+  src: '/best-buy.svg'
+}))`
+  width: ${height}px;
+  height: ${height}px;
+  margin-left: 12px;
+`
+const DiscordLogo = styled.img.attrs(() => ({
+  src: '/discord.png'
+}))`
+  /* width: 40px; */
+  height: ${height}px;
+  margin-left: 12px;
+`
+const FacebookLogo = styled.img.attrs(() => ({
+  src: '/facebook.png'
+}))`
+  width: ${height}px;
+  height: ${height}px;
+  margin-left: 12px;
+`
 
 const Col = styled.div`
   display: flex;

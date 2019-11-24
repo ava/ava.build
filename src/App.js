@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import styled from 'styled-components'
 import { CursorProvider, Mouse, Follower } from 'components'
 import { HomePage } from 'pages'
 import { BrowserRouter as Router } from 'react-router-dom'
@@ -27,22 +26,9 @@ const App = () => {
   return (
     <CursorProvider cursor={{ mouse, follower }}>
       <Router>
-        <Nav />
         <HomePage />
       </Router>
     </CursorProvider>
-  )
-}
-
-const Row = styled.div`
-  display: flex;
-`
-
-const Nav = () => {
-  return (
-    <Row>
-      {/* TODO */}
-    </Row>
   )
 }
 
