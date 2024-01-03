@@ -24,7 +24,7 @@ export const SocialMedia = props => (
     <SocialLink type='facebook' url='https://fb.com/avaassociates' />
     {/* <SocialLink type='medium' url='https://medium.com/@alexcory' /> */}
     {/* <SocialLink type='jsfiddle' url='https://jsfiddle.net/user/alexcory/fiddles/' /> */}
-    <SocialLink type='email' url='mailto:alex@ava.inc' />
+    <SocialLink type='email' url='mailto:alex@ava.build' />
     {/* Runkit: https://runkit.com/alex-cory */}
     {/* Codesandbox: https://codesandbox.io/u/alex-cory */}
   </Container>
